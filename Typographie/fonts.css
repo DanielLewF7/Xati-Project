@@ -138,3 +138,6 @@ li:hover {
     box-shadow:0px 2px 10px 5px #97B1BF;
     color:#000;
 }
+.font-padding {
+    padding: 10px 10px;
+}

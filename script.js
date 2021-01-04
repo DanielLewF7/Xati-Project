@@ -36,8 +36,6 @@ $(document).ready(function() {
             }
         });
     });
-});
-$(document).ready(function() {
     $(".h2-anim").click(function () {
         animText = $(".AnimationText");
         animText.slideDown(700);
@@ -83,12 +81,16 @@ $(document).ready(function() {
     $("body").ready(function () {
         box.width(0);
         box.height(0);
-        box.fadeIn(500).animate ({width: 360, height: 520}, { duration: 1000});
+        box.fadeIn(500).animate ({width: 360, height: 530}, { duration: 1000});
+        if (jQuery(window).width() === 700 && jQuery(window).height() === 761) {
+            box.fadeIn(500).animate ({width: 260, height: 420}, { duration: 1000});
+        } else {
+            console.log("tst");
+        }
        function boxAnim () {
            var txtbox = $(".textbox");
            txtbox.fadeIn(700);
            txtbox.css("border-top","2px solid #53BBEB")
-           $("p").addClass("text-spacing")
        }
         setTimeout(boxAnim, 1500);
     });
@@ -104,8 +106,9 @@ $(document).ready(function() {
         slideIndex++;
         if (slideIndex > slides.length) {slideIndex = 1}
         slides[slideIndex-1].style.display = "block";
-        setTimeout(showSlides, 10000);
+        setTimeout(showSlides, 3000);
     }
+
 });
 document.write(('b' + 'a' + + 'a' + 'a').toLowerCase());
 //"banana"

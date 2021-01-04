@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c0961587-c8aa-4d6a-8957-ba401ec9133e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1l3Olhs36fpBoiva0pmk2QZrQmV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/GitHubXati" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/GitHubXati" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Images" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0961587-c8aa-4d6a-8957-ba401ec9133e" name="Default Changelist" comment="" />
+      <created>1606822461555</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606822461555</updated>
+      <workItem from="1606822462611" duration="6330000" />
+      <workItem from="1607331000218" duration="21533000" />
+      <workItem from="1608631323646" duration="6080000" />
+      <workItem from="1608909897808" duration="584000" />
+      <workItem from="1609231773177" duration="14516000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="351" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609751720465">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state x="351" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1680.965@0.25.1680.965" timestamp="1609751720465" />
+    <state x="616" y="299" width="670" height="676" key="search.everywhere.popup" timestamp="1608214087148">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state x="616" y="299" width="670" height="676" key="search.everywhere.popup/0.25.1680.965@0.25.1680.965" timestamp="1608214087148" />
+  </component>
+</project>

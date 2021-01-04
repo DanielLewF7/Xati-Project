@@ -1,0 +1,24 @@
+.spacing-t-small {
+    margin-top: 25px;
+}
+.spacing-t-medium {
+    margin-top: 75px;
+}
+.spacing-t-large {
+    margin-top: 150px;
+}
+.spacing-b-small {
+    margin-bottom: 25px;
+}
+.spacing-b-medium {
+    margin-bottom: 75px;
+}
+.spacing-b-large {
+    margin-top: 150px;
+}
+.spacing-mid {
+    margin: auto;
+}
+.text-spacing {
+    padding: 10px 10px;
+}

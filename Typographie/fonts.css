@@ -141,3 +141,11 @@ li:hover {
 .font-padding {
     padding: 10px 10px;
 }
+@media only screen and (max-width: 600px) {
+    p,a,h3 {
+        font-size: 13px !important;
+    }
+    h1,h2 {
+        font-size: 15px !important;
+    }
+}

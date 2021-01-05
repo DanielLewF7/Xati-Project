@@ -1,11 +1,4 @@
 $(document).ready(function() {
-    var { JSDOM } = require( "jsdom" ).jsdom;
-    global.$ = require('jquery/dist/jquery')(jsdom().createWindow());
-    var { window } = new JSDOM( "" );
-    var $ = require( "jquery" )( window );
-    require('bootstrap');
-});
-$(document).ready(function() {
     $(".topnav").click(function () {
         fadeNew = $(".topnav");
         fadeNew.animate({
@@ -80,11 +73,6 @@ $(document).ready(function() {
         box.width(0);
         box.height(0);
         box.fadeIn(500).animate ({width: 360, height: 530}, { duration: 1000});
-        if (jQuery(window).width() === 700 && jQuery(window).height() === 761) {
-            box.fadeIn(500).animate ({width: 260, height: 420}, { duration: 1000});
-        } else {
-            console.log("tst");
-        }
         function boxAnim () {
             var txtbox = $(".textbox");
             txtbox.fadeIn(700);
@@ -109,6 +97,5 @@ $(document).ready(function() {
 });
 
 document.write(('b' + 'a' + + 'a' + 'a').toLowerCase());
-//"banana"
 console.log("a" + + "a");
 console.log("d" + + "d");

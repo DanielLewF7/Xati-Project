@@ -1,0 +1,11 @@
+{
+  "name": "metaverse",
+  "version": "0.92.12",
+  "description": "The Metaverse virtual reality. The final outcome of all virtual worlds, augmented reality, and the Internet.",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "*",
+    "jquery": "*"
+  }
+}

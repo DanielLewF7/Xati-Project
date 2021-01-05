@@ -37,28 +37,14 @@ $(document).ready(function() {
         animText.slideUp(700);
         event.stopPropagation();
     });
-    onOff1 = $(".tab-text-2, .tab-text-3, .tab-text-4");
-    onOff2 = $(".tab-text-1, .tab-text-3, .tab-text-4");
-    onOff3 = $(".tab-text-1, .tab-text-2, .tab-text-4");
-    onOff4 = $(".tab-text-1, .tab-text-3, .tab-text-2");
-    $(".tab-text-1").fadeToggle(500);
-    $(".btn-tabs-1").click(function () {
-        onOff1.hide();
-        $(".tab-text-1").fadeToggle(500);
+    tabs = $(".tab-text");
+    tabs.hide();
+    $(".btn-tabs").click(function () {
+        $(this).index();
+        $(".tab-text:nth-of-type(n)").show();
+        console.log(this);
     });
-    $(".btn-tabs-2").click(function () {
-        $(".tab-text-2").fadeToggle(500);
-        onOff2.hide();
-    });
-    $(".btn-tabs-3").click(function () {
-        $(".tab-text-3").fadeToggle(500);
-        onOff3.hide();
-    });
-    $(".btn-tabs-4").click(function () {
-        $(".tab-text-4").fadeToggle(500);
-        onOff4.hide();
-    });
-    $(".confirm").click(function () {
+        $(".confirm").click(function () {
        var checkName = $(".x-mas").val();
         if (checkName === "Daniel") {
             $(".interface-2").fadeIn(500);

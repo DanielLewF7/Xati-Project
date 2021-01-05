@@ -30,44 +30,33 @@
     justify-content: center;
 }
 .tab-text-1 {
-    display:none;
     border: 2px solid #D3F052;
     border-top-left-radius: 10px;
     border-left-color: #53BBEB;
     border-top-color: #53BBEB;
 }
-.tab-text-1:hover {
 
-}
 .tab-text-2 {
-    display: none;
     border: 2px solid #D3F052;
     border-top-left-radius: 10px;
     border-left-color: #53BBEB;
     border-top-color: #53BBEB;
-}
-.tab-text-2:hover {
-
 }
 .tab-text-3 {
-    display: none;
     border: 2px solid #D3F052;
     border-top-left-radius: 10px;
     border-left-color: #53BBEB;
     border-top-color: #53BBEB;
 }
-.tab-text-3:hover {
 
-}
 .tab-text-4 {
-    display: none;
     border: 2px solid #D3F052;
     border-top-left-radius: 10px;
     border-left-color: #53BBEB;
     border-top-color: #53BBEB;
 }
-.tab-text-4:hover {
-
+.tab-text {
+    display: none;
 }
 .interface-2 {
     display:none;

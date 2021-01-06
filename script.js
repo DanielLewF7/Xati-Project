@@ -37,12 +37,12 @@ $(document).ready(function() {
         animText.slideUp(700);
         event.stopPropagation();
     });
-    tabs = $(".tab-text");
-    tabs.hide();
     $(".btn-tabs").click(function () {
-        $(this).index();
-        $(".tab-text:nth-of-type(n)").show();
-        console.log(this);
+        $(".btn-tabs").removeClass("active");
+        $(this).addClass("active");
+        $(".tab-text").hide();
+        $(".tab-text:nth-of-type("+ ($(this).index() + 1) +")").show();
+        console.log($(this).index() + 1);
     });
         $(".confirm").click(function () {
        var checkName = $(".x-mas").val();

@@ -20,16 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0961587-c8aa-4d6a-8957-ba401ec9133e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Slider/slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Slider/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tab/tab.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tab/tab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Teaser/teaser.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Teaser/teaser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Register/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Register/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Navigation/Navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/Navigation/Navigation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tab/tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tab/tab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teaser/teaser.css" beforeDir="false" afterPath="$PROJECT_DIR$/Teaser/teaser.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +43,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -56,6 +57,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/GitHubXati" />
@@ -64,12 +66,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/GitHubXati" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Images" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/GitHubXati" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -85,7 +87,7 @@
       <workItem from="1608631323646" duration="6080000" />
       <workItem from="1608909897808" duration="584000" />
       <workItem from="1609231773177" duration="21687000" />
-      <workItem from="1609775360759" duration="29806000" />
+      <workItem from="1609775360759" duration="36952000" />
     </task>
     <servers />
   </component>
@@ -108,10 +110,11 @@
       <screen x="0" y="25" width="1680" height="965" />
     </state>
     <state x="351" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1680.965@0.25.1680.965" timestamp="1609751720465" />
-    <state x="616" y="302" width="670" height="684" key="search.everywhere.popup" timestamp="1609933216523">
-      <screen x="0" y="25" width="1680" height="975" />
+    <state x="616" y="302" width="670" height="684" key="search.everywhere.popup" timestamp="1610021495886">
+      <screen x="0" y="25" width="1680" height="974" />
     </state>
     <state x="616" y="299" width="670" height="676" key="search.everywhere.popup/0.25.1680.965@0.25.1680.965" timestamp="1608214087148" />
+    <state x="616" y="302" width="670" height="684" key="search.everywhere.popup/0.25.1680.974@0.25.1680.974" timestamp="1610021495886" />
     <state x="616" y="302" width="670" height="684" key="search.everywhere.popup/0.25.1680.975@0.25.1680.975" timestamp="1609933216523" />
   </component>
 </project>

@@ -12,11 +12,19 @@
     color:#000;
 }
 .teaserImgBox {
-    background: url("Images/cat.jpeg");
+    height: 220px;
+}
+.secondimg {
+    background: url("../Images/HTMLCSSJS.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 220px;
+}
+.thirdimg {
+    background: url("../Images/phpmysql.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 .textbox {
     display:none;

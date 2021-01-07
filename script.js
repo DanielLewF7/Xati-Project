@@ -38,6 +38,6 @@ $(document).ready(function() {
         event.stopPropagation();
     });
 });
-document.write(('b' + 'a' + + 'a' + 'a').toLowerCase());
+//document.write(('b' + 'a' + + 'a' + 'a').toLowerCase());
 console.log("a" + + "a");
 console.log("d" + + "d");

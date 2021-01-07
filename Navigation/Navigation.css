@@ -2,10 +2,11 @@
     list-style-type: none;
     height: 25px;
     text-align: center;
-    display: flex;
-    justify-content: center;
+    margin: auto;
+    display: contents;
+}
+.Navigation {
     border-bottom: 2px solid #53BBEB;
-
 }
 .topnav {
     display: none;

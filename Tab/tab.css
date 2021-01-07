@@ -1,0 +1,21 @@
+.Tabs {
+    display: flex;
+    justify-content: center;
+}
+.wrap {
+    margin: auto;
+}
+.tab-text {
+    display: none;
+    border: 2px solid #D3F052;
+    border-top-left-radius: 10px;
+    border-left-color: #53BBEB;
+    border-top-color: #53BBEB;
+}
+.tab-text:nth-of-type(1) {
+    display: block;
+}
+
+.interface-2 {
+    display:none;
+}

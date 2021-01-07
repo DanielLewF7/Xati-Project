@@ -14,6 +14,12 @@
 .teaserImgBox {
     height: 220px;
 }
+.firstimg {
+    background: url("../Images/wp.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 .secondimg {
     background: url("../Images/HTMLCSSJS.jpeg");
     background-size: cover;

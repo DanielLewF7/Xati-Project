@@ -19,7 +19,7 @@
 <body>
 <div class="Navigation">
     <ul class="menu">
-        <li><a href="../Index.html">Home</a></li>
+        <li><a href="../Index.php">Home</a></li>
     </ul>
 </div>
 <div class="topnav">
@@ -27,7 +27,7 @@
         <i class="fas fa-align-justify off"></i>
     </a>
     <div id="topLinks">
-        <a href="../index.html">Home</a>
+        <a href="../index.php">Home</a>
         <button class="btn-small text-center">Close Me</button>
     </div>
 </div>

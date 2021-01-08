@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <link href="node_modules/bootstrap/dist/css/bootstrap-grid.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="Typographie/fonts.css" rel="stylesheet">
     <link href="Footer/footer.css" rel="stylesheet">
     <link href="Navigation/Navigation.css" rel="stylesheet">
@@ -24,9 +26,9 @@
 <div class="Navigation">
     <ul class="menu">
         <li><a href="Index.html">Home</a></li>
-            <a href="Register/register.html">Register</a>
+            <a href="Register/register.php">Register</a>
             <span class="pipe">|</span>
-            <a href="Login/login.html">Login</a>
+            <a href="Login/login.php">Login</a>
     </ul>
 </div>
 <div class="topnav">
@@ -35,8 +37,8 @@
     </a>
     <div id="topLinks">
         <a href="index.html">Home</a>
-        <a href="Register/register.html">Register</a>
-        <a href="Login/login.html">Login</a>
+        <a href="Register/register.php">Register</a>
+        <a href="Login/login.php">Login</a>
         <button class="btn-small text-center">Close Me</button>
     </div>
 </div>
@@ -172,5 +174,31 @@
     </div>
     <button class="btop"><i class="fas fa-arrow-up"></i></button>
 </div>
+<?php
+$servername = "db:3306";
+$username = "db";
+$password = "db";
+$dbname = "db";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+$sql = "SELECT idUsers, uidUsers, emailUsers, pwdUsers FROM users";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+    // output data of each row
+    while($row = $result->fetch_assoc()) {
+        echo "idUsers: " . $row["idUsers"]. " - Name: " . $row["uidUsers"]. " " . $row["emailUsers"]. "<br>";
+    }
+} else {
+    echo "0 results";
+}
+$conn->close();
+?>
 </body>
 </html>

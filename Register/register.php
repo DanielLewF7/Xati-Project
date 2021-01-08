@@ -42,6 +42,8 @@
                     <input type="text" placeholder="Username">
                     <p>Please type a save password</p>
                     <input type="password" placeholder="Password">
+                    <p>Repeat your password</p>
+                    <input type="password" placeholder="Repeat password">
                     <button class="regbtn spacing-t-small">Register</button>
                 </form>
             </div>

@@ -37,14 +37,14 @@
             <div class="register spacing-b-small">
                 <form>
                     <p>Please type a valid Email</p>
-                    <input type="text" placeholder="Email">
+                    <input type="text" name="mail" placeholder="Email">
                     <p>Please type a Username</p>
-                    <input type="text" placeholder="Username">
+                    <input type="text" name="uid" placeholder="Username">
                     <p>Please type a save password</p>
-                    <input type="password" placeholder="Password">
+                    <input type="password" name="pwd" placeholder="Password">
                     <p>Repeat your password</p>
-                    <input type="password" placeholder="Repeat password">
-                    <button class="regbtn spacing-t-small">Register</button>
+                    <input type="password" name="pwd-repeat" placeholder="Repeat password">
+                    <button type="submit" name="signup-sub" class="regbtn spacing-t-small">Register</button>
                 </form>
             </div>
         </div>
@@ -60,5 +60,8 @@
         <a href="google.com">Impressum</a>
     </div>
 </div>
+<?php
+
+?>
 </body>
 </html>

@@ -35,12 +35,12 @@
     <div class="row">
         <div class="content spacing-b-medium spacing-t-medium">
             <div class="login spacing-b-small">
-                <form>
-                    <p>Please type your login username</p>
-                    <input type="text" placeholder="Username">
+                <form action="login.inc.php" method="post">
+                    <p>Please type your login username or login email</p>
+                    <input name="mailuid" type="text" placeholder="Username">
                     <p>Please type your login password</p>
-                    <input type="password" placeholder="Password">
-                    <button class="logbtn spacing-t-small">Login</button>
+                    <input name="pwd" type="password" placeholder="Password">
+                    <button name="login-sub" class="logbtn spacing-t-small">Login</button>
                 </form>
             </div>
         </div>

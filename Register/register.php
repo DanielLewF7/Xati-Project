@@ -35,7 +35,7 @@
     <div class="row">
         <div class="content spacing-b-medium spacing-t-medium">
             <div class="register spacing-b-small">
-                <form>
+                <form action="register.inc.php" method="post">
                     <p>Please type a valid Email</p>
                     <input type="text" name="mail" placeholder="Email">
                     <p>Please type a Username</p>

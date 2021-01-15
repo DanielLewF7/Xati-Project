@@ -1,3 +1,6 @@
+<?php
+    session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,6 +33,13 @@
             <span class="pipe">|</span>
             <a href="Login/login.php">Login</a>
     </ul>
+    <?php
+    if (isset($_SESSION['userId'])) {
+        echo '<p>You are logged in!</p>';
+    } else {
+        echo '<p>You are logged out!</p>';
+    }
+    ?>
 </div>
 <div class="topnav">
     <a href="#home" class="active">

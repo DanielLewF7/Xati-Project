@@ -34,6 +34,33 @@
 <div class="container-fluid">
     <div class="row">
         <div class="content spacing-b-medium spacing-t-medium">
+            <div class="col-12">
+                <?php
+                if (isset($_GET['error'])) {
+                    if (($_GET['error'] == "emptyfields")) {
+                        echo '<p class="signuperror">Fill in all fields</p>';
+                    }
+                    else if (($_GET['error'] == "invaliduidmail")) {
+                        echo '<p class="signuperror">Invalid username or email</p>';
+                    }
+                    else if (($_GET['error'] == "invaliduid")) {
+                        echo '<p class="signuperror">Invalid username</p>';
+                    }
+                    else if (($_GET['error'] == "invalidmail")) {
+                        echo '<p class="signuperror">invalid email</p>';
+                    }
+                    else if (($_GET['error'] == "passwordcheck")) {
+                        echo '<p class="signuperror">wrong Password</p>';
+                    }
+                    else if (($_GET['error'] == "usertaken")) {
+                        echo '<p class="signuperror">User is already taken</p>';
+                    }
+                    else if (($_GET['signup'] == "success")) {
+                        echo 'Success';
+                    }
+                }
+                ?>
+            </div>
             <div class="register spacing-b-small">
                 <form action="register.inc.php" method="post">
                     <p>Please type a valid Email</p>

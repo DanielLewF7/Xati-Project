@@ -28,3 +28,7 @@
 .active {
     background-color: #53BBEB !important;
 }
+.signuperror {
+    color: red;
+    text-align: center;
+}

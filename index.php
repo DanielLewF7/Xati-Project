@@ -29,9 +29,17 @@
 <div class="Navigation">
     <ul class="menu">
         <li><a href="Index.html">Home</a></li>
-            <a href="Register/register.php">Register</a>
+        <?php
+        if (isset($_SESSION['userId'])) {
+            echo '<form action="Login/logout.inc.php" method="post">
+                <button type="submit" name="logout-sub">Logout</button>
+            </form>';
+        } else {
+            echo '<a href="Register/register.php">Register</a>
             <span class="pipe">|</span>
-            <a href="Login/login.php">Login</a>
+            <a href="Login/login.php">Login</a>';
+        }
+        ?>
     </ul>
 </div>
 <div class="topnav">

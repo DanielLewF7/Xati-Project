@@ -33,13 +33,6 @@
             <span class="pipe">|</span>
             <a href="Login/login.php">Login</a>
     </ul>
-    <?php
-    if (isset($_SESSION['userId'])) {
-        echo '<p>You are logged in!</p>';
-    } else {
-        echo '<p>You are logged out!</p>';
-    }
-    ?>
 </div>
 <div class="topnav">
     <a href="#home" class="active">
@@ -52,6 +45,13 @@
         <button class="btn-small text-center">Close Me</button>
     </div>
 </div>
+<?php
+if (isset($_SESSION['userId'])) {
+    echo '<p>You are logged in!</p>';
+} else {
+    echo '<p>You are logged out!</p>';
+}
+?>
 <div class="container">
     <div class="content spacing-t-small">
         <h2 class="text-center h2-anim">About me (Click to expand the text)</h2>

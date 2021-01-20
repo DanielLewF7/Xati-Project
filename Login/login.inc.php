@@ -26,7 +26,7 @@ if (isset($_POST["login-sub"])) {
                     exit();
                 } else if ($pwdCheck == true) {
                     session_start();
-                    $_SESSION['userId'] = $row['idUsers'];
+                    $_SESSION['userId'] = $row['idUSers'];
                     $_SESSION['userUid'] = $row['uidUsers'];
 
                     header("Location: ../index.php?login=success");

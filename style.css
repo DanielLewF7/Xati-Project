@@ -32,3 +32,13 @@
     color: red;
     text-align: center;
 }
+.succ {
+    color: green;
+    text-align: center;
+}
+.loginText {
+    text-align: right;
+}
+.logout {
+    float: left;
+}

@@ -30,14 +30,17 @@
     <ul class="menu">
         <li><a href="Index.html">Home</a></li>
         <?php
-        if (isset($_SESSION['userId'])) {
-            echo '<form action="Login/logout.inc.php" method="post">
-                <button type="submit" name="logout-sub">Logout</button>
+        if (isset($_SESSION['userUid'])) {
+            echo ' <form action="Login/logout.inc.php" method="post">
+                <button type="submit" name="logout-sub" class="btn logout">Logout</button>
             </form>';
+            echo '<p class="loginText">You are logged in!</p>';
         } else {
-            echo '<a href="Register/register.php">Register</a>
+            echo ' <a href="Register/register.php">Register</a>
             <span class="pipe">|</span>
             <a href="Login/login.php">Login</a>';
+            //echo '<p class="loginText">You are logged out!</p>';
+
         }
         ?>
     </ul>
@@ -53,13 +56,6 @@
         <button class="btn-small text-center">Close Me</button>
     </div>
 </div>
-<?php
-if (isset($_SESSION['userId'])) {
-    echo '<p>You are logged in!</p>';
-} else {
-    echo '<p>You are logged out!</p>';
-}
-?>
 <div class="container">
     <div class="content spacing-t-small">
         <h2 class="text-center h2-anim">About me (Click to expand the text)</h2>
@@ -74,10 +70,10 @@ if (isset($_SESSION['userId'])) {
     <div class="container">
         <div class="col-lg-12 col-md-12 col-sm-12 spacing-t-medium text-center">
             <div class="Tabs">
-                <button class="btn btn-tabs btn-tabs-1">My gym experience</button>
-                <button class="btn btn-tabs btn-tabs-2">Some Text</button>
-                <button class="btn btn-tabs btn-tabs-3">Some Text</button>
-                <button class="btn btn-tabs btn-tabs-4">Secret Tab</button>
+                <button class="btn-tabs btn-tabs-1">My gym experience</button>
+                <button class="btn-tabs btn-tabs-2">Some Text</button>
+                <button class="btn-tabs btn-tabs-3">Some Text</button>
+                <button class="btn-tabs btn-tabs-4">Secret Tab</button>
             </div>
         </div>
     </div>
@@ -193,12 +189,7 @@ if (isset($_SESSION['userId'])) {
     <button class="btop"><i class="fas fa-arrow-up"></i></button>
 </div>
 <?php
-$servername = "db:3306";
-$username = "db";
-$password = "db";
-$dbname = "db";
-
-$conn = new mysqli($servername, $username, $password, $dbname);
+require "register/dbh.inc.php";
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
@@ -209,7 +200,7 @@ $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
-        echo "idUsers: " . $row["idUsers"]. " - Name: " . $row["uidUsers"]. " " . $row["emailUsers"]. "<br>";
+        //echo "idUsers: " . $row["idUsers"]. " - Name: " . $row["uidUsers"]. " " . $row["emailUsers"]. "<br>";
     }
 } else {
     echo "0 results";

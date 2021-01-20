@@ -20,9 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0961587-c8aa-4d6a-8957-ba401ec9133e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Login/logout.inc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login/login.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/Login/login.inc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Register/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/Register/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tab/tab.css" beforeDir="false" afterPath="$PROJECT_DIR$/Tab/tab.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Typographie/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/Typographie/fonts.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -83,7 +85,7 @@
       <workItem from="1608909897808" duration="584000" />
       <workItem from="1609231773177" duration="21687000" />
       <workItem from="1609775360759" duration="42732000" />
-      <workItem from="1610101311862" duration="16298000" />
+      <workItem from="1610101311862" duration="23517000" />
     </task>
     <servers />
   </component>

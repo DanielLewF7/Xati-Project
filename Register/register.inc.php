@@ -27,7 +27,7 @@ else if ($password !== $passwordRepeat) {
     exit();
 }
 else {
-    $sql = "SELECT uidUsers FROM users WHERE uidUsers='?'";
+    $sql = "SELECT username FROM users WHERE username='?'";
     $stmt = mysqli_stmt_init($conn);
     if (!mysqli_stmt_prepare($stmt, $sql)) {
         header("Location: register.php?error=sqlerror");
@@ -42,7 +42,7 @@ else {
             exit();
         }
         else {
-            $sql = "INSERT INTO users (uidUsers, emailUsers, pwdUsers) VALUES (?, ? , ?)";
+            $sql = "INSERT INTO users (username, email, pwd) VALUES (?, ? , ?)";
             $stmt = mysqli_stmt_init($conn);
             if (!mysqli_stmt_prepare($stmt, $sql)) {
                 header("Location: register.php?error=sqlerror");

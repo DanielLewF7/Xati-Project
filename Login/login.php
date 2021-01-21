@@ -34,8 +34,32 @@
 <div class="container-fluid">
     <div class="row">
         <div class="content spacing-b-medium spacing-t-medium">
+            <?php
+            if (isset($_GET['error'])) {
+                if ($_GET['error'] == "emptyfields") {
+                    echo '<p class="signuperror">Fill in all fields</p>';
+                }
+                else if ($_GET['error'] == "invaliduidmail=") {
+                    echo '<p class="signuperror">Invalid username or email</p>';
+                }
+                else if ($_GET['error'] == "Wrongpassword") {
+                    echo '<p class="signuperror">wrong Password</p>';
+                }
+                else if ($_GET['error'] == "wrongPassword") {
+                    echo '<p class="signuperror">Invalid Password</p>';
+                }
+                else if ($_GET['error'] == "sqlerror") {
+                    echo '<p class="signuperror">a database error occurred</p>';
+                }
+            }
+            else if (isset($_GET['login'])) {
+                if ($_GET['login'] == "success") {
+                    echo '<p class="succ">Success</p>';
+                }
+            }
+            ?>
             <div class="login spacing-b-small">
-                <form action="login.inc.php" method="post">
+                <form action="login.inc.php" method="post" class="signupForm">
                     <p>Please type your login username or login email</p>
                     <input name="mailuid" type="text" placeholder="Username">
                     <p>Please type your login password</p>

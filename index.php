@@ -195,7 +195,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT idUsers, uidUsers, emailUsers, pwdUsers FROM users";
+$sql = "SELECT id, username, email, pwd FROM users";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {

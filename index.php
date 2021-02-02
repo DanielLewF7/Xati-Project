@@ -33,6 +33,7 @@
         if (isset($_SESSION['userUid'])) {
             echo ' <form action="Login/logout.inc.php" method="post">
                 <button type="submit" name="logout-sub" class="btn logout">Logout</button>
+                        <li><a href="Gallery/gallery.php">Gallery</a></li>
             </form>';
             echo '<p class="loginText">You are logged in!</p>';
         } else {
@@ -53,6 +54,7 @@
         <a href="index.html">Home</a>
         <a href="Register/register.php">Register</a>
         <a href="Login/login.php">Login</a>
+        <a href="Gallery/gallery.php">Login</a>
         <button class="btn-small text-center">Close Me</button>
     </div>
 </div>

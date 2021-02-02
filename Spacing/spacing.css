@@ -1,3 +1,6 @@
+.spacing-t-tiny {
+    margin-top: 15px;
+}
 .spacing-t-small {
     margin-top: 25px;
 }
@@ -6,6 +9,9 @@
 }
 .spacing-t-large {
     margin-top: 150px;
+}
+.spacing-b-tiny {
+    margin-bottom: 15px;
 }
 .spacing-b-small {
     margin-bottom: 25px;

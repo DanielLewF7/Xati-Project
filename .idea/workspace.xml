@@ -20,13 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0961587-c8aa-4d6a-8957-ba401ec9133e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Gallery/gallery-upload.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gallery/gallery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gallery/gallery.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/login.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/Login/login.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Login/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Register/register.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/Register/register.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Register/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/Register/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacing/spacing.css" beforeDir="false" afterPath="$PROJECT_DIR$/Spacing/spacing.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +84,12 @@
       <workItem from="1608909897808" duration="584000" />
       <workItem from="1609231773177" duration="21687000" />
       <workItem from="1609775360759" duration="42732000" />
-      <workItem from="1610101311862" duration="25935000" />
+      <workItem from="1610101311862" duration="27135000" />
+      <workItem from="1611229811294" duration="642000" />
+      <workItem from="1611570318226" duration="587000" />
+      <workItem from="1611588168801" duration="7882000" />
+      <workItem from="1611826352692" duration="1736000" />
+      <workItem from="1612258391277" duration="2319000" />
     </task>
     <servers />
   </component>
@@ -113,10 +117,11 @@
       <screen x="0" y="25" width="1680" height="972" />
     </state>
     <state x="966" y="308" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1680.972@0.25.1680.972" timestamp="1610100651727" />
-    <state x="784" y="728" key="NewPhpFileDialog" timestamp="1610715765340">
-      <screen x="0" y="25" width="1680" height="972" />
+    <state x="784" y="727" key="NewPhpFileDialog" timestamp="1611751180636">
+      <screen x="0" y="25" width="1680" height="971" />
     </state>
     <state x="784" y="725" key="NewPhpFileDialog/0.25.1680.967@0.25.1680.967" timestamp="1610119767771" />
+    <state x="784" y="727" key="NewPhpFileDialog/0.25.1680.971@0.25.1680.971" timestamp="1611751180636" />
     <state x="784" y="728" key="NewPhpFileDialog/0.25.1680.972@0.25.1680.972" timestamp="1610715765340" />
     <state x="784" y="729" key="NewPhpFileDialog/0.25.1680.973@0.25.1680.973" timestamp="1610708840869" />
     <state x="616" y="302" width="670" height="684" key="search.everywhere.popup" timestamp="1610021495886">

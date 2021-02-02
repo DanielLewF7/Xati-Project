@@ -59,13 +59,21 @@
             }
             ?>
             <div class="login spacing-b-small">
-                <form action="login.inc.php" method="post" class="signupForm">
-                    <p>Please type your login username or login email</p>
-                    <input name="mailuid" type="text" placeholder="Username">
-                    <p>Please type your login password</p>
-                    <input name="pwd" type="password" placeholder="Password">
-                    <button name="login-sub" class="logbtn spacing-t-small">Login</button>
-                </form>
+                <div class="row">
+                    <form action="login.inc.php" method="post" class="signupForm">
+                        <div class="col-4">
+                            <p>Please type your login username or login email</p>
+                            <input name="mailuid" type="text" placeholder="Username" class="XatiInput">
+                        </div>
+                        <div class="col-4">
+                            <p>Please type your login password</p>
+                            <input name="pwd" type="password" placeholder="Password" class="XatiInput">
+                        </div>
+                        <div class="col-4">
+                            <button name="login-sub" class="logbtn spacing-t-small">Login</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>

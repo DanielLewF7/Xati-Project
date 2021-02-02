@@ -64,13 +64,13 @@
             <div class="register spacing-b-small">
                 <form action="register.inc.php" method="post" class="signupForm">
                     <p>Please type a valid Email</p>
-                    <input type="text" name="mail" placeholder="Email">
+                    <input type="text" name="mail" placeholder="Email" class="XatiInput">
                     <p>Please type a Username</p>
-                    <input type="text" name="uid" placeholder="Username">
+                    <input type="text" name="uid" placeholder="Username" class="XatiInput">
                     <p>Please type a save password</p>
-                    <input type="password" name="pwd" placeholder="Password">
+                    <input type="password" name="pwd" placeholder="Password" class="XatiInput">
                     <p>Repeat your password</p>
-                    <input type="password" name="pwd-repeat" placeholder="Repeat password">
+                    <input type="password" name="pwd-repeat" placeholder="Repeat password" class="XatiInput">
                     <button type="submit" name="signup-sub" class="regbtn spacing-t-small">Register</button>
                 </form>
             </div>

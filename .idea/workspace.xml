@@ -20,12 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0961587-c8aa-4d6a-8957-ba401ec9133e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Gallery/gallery-upload.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gallery/gallery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gallery/gallery.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spacing/spacing.css" beforeDir="false" afterPath="$PROJECT_DIR$/Spacing/spacing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gallery/gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/Gallery/gallery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Login/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Navigation/Navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/Navigation/Navigation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Register/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/Register/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Typographie/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/Typographie/fonts.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +91,7 @@
       <workItem from="1611570318226" duration="587000" />
       <workItem from="1611588168801" duration="7882000" />
       <workItem from="1611826352692" duration="1736000" />
-      <workItem from="1612258391277" duration="2319000" />
+      <workItem from="1612258391277" duration="5285000" />
     </task>
     <servers />
   </component>

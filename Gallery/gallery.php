@@ -66,16 +66,16 @@ $_SESSION['username'] = 'Admin';
                     <form action="gallery-upload.inc.php" Method="post" enctype="multipart/form-data">
                         <h2>Upload a picture here</h2>
                         <div class="col-2">
-                        <input type="text" name="filename" placeholder="file name" class="spacing-b-tiny">
+                        <input type="text" name="filename" placeholder="file name" class="spacing-b-tiny XatiInput XatiInputGallery">
                         </div>
                         <div class="col-2">
-                        <input type="text" name="filetitle" placeholder="Image title" class="spacing-b-tiny">
+                        <input type="text" name="filetitle" placeholder="Image title" class="spacing-b-tiny XatiInput XatiInputGallery">
                         </div>
                         <div class="col-2">
-                        <input type="text" name="filedesc" placeholder="Image description" class="spacing-b-tiny">
+                        <input type="text" name="filedesc" placeholder="Image description" class="spacing-b-tiny XatiInput XatiInputGallery">
                         </div>
                         <div class="col-2">
-                         <input type="file" name="file" class="spacing-b-tiny">
+                         <input type="file" name="file" class="spacing-b-tiny XatiInput XatiInputGallery">
                          </div>
                     </form>
                     <button type="submit" name="submit" class="btn spacing-t-small">UPLOAD</button>

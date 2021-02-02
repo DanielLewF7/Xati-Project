@@ -31,17 +31,21 @@
         <li><a href="Index.html">Home</a></li>
         <?php
         if (isset($_SESSION['userUid'])) {
-            echo ' <form action="Login/logout.inc.php" method="post">
-                <button type="submit" name="logout-sub" class="btn logout">Logout</button>
-                        <li><a href="Gallery/gallery.php">Gallery</a></li>
-            </form>';
-            echo '<p class="loginText">You are logged in!</p>';
-        } else {
+            echo '<li><a href="Gallery/gallery.php">Gallery</a></li>';
+            }else {
             echo ' <a href="Register/register.php">Register</a>
             <span class="pipe">|</span>
             <a href="Login/login.php">Login</a>';
             //echo '<p class="loginText">You are logged out!</p>';
 
+        }
+        ?>
+        <?php
+        if (isset($_SESSION['userUid'])) {
+            echo ' <form class="XatiForm" action="Login/logout.inc.php" method="post">
+                <button type="submit" name="logout-sub" class="btn logout">Logout</button>
+            </form>';
+            echo '<p class="loginText">You are logged in!</p>';
         }
         ?>
     </ul>

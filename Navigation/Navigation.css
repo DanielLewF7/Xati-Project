@@ -2,8 +2,8 @@
     list-style-type: none;
     height: 25px;
     text-align: center;
-    margin: auto;
-    display: contents;
+    display: flex;
+    justify-content: center;
 }
 .Navigation {
     border-bottom: 2px solid #53BBEB;

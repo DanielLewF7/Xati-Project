@@ -27,17 +27,21 @@
 </head>
 <body>
 <div class="Navigation">
-    <ul class="menu">
-        <li><a href="Index.html">Home</a></li>
+
         <?php
         if (isset($_SESSION['userUid'])) {
-            echo '<li><a href="Gallery/gallery.php">Gallery</a></li>';
-            }else {
-            echo ' <a href="Register/register.php">Register</a>
+            echo '<ul class="menu">
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="Gallery/gallery.php">Gallery</a></li>
+            </ul>';
+            } else {
+            echo '  <ul class="menu">
+            <li><a href="Index.html">Home</a></li>
+            <a href="Register/register.php">Register</a>
             <span class="pipe">|</span>
-            <a href="Login/login.php">Login</a>';
+            <a href="Login/login.php">Login</a>
+             </ul>';
             //echo '<p class="loginText">You are logged out!</p>';
-
         }
         ?>
         <?php
@@ -48,7 +52,6 @@
             echo '<p class="loginText">You are logged in!</p>';
         }
         ?>
-    </ul>
 </div>
 <div class="topnav">
     <a href="#home" class="active">

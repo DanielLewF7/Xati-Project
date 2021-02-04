@@ -50,7 +50,7 @@ $_SESSION['username'] = 'Admin';
 
                 while ($row = mysqli_fetch_assoc($result)) {
                     echo'<a href="#">
-                    <div style="background-image: url(../Images/GalleryImg/'.$row["ImgFullNameGallery"].');"></div>
+                    <div class="newGalleryImg" style="background-image: url(../Images/GalleryImg/'.$row["imgFullNameGallery"].');"></div>
                     <h3>'.$row["titleGallery"].'</h3>
                     <p>'.$row["descGallery"].'</p>
                     </a>';
@@ -60,9 +60,7 @@ $_SESSION['username'] = 'Admin';
         </div>
         <div class="row">
             <div class="col-4">
-                <?php
-                if(isset($_SESSION['username'])) {
-                    echo'<div class="gallery-upload-form text-center">
+                <div class="gallery-upload-form text-center">
                     <form action="gallery-upload.inc.php" Method="post" enctype="multipart/form-data">
                         <h2>Upload a picture here</h2>
                         <div class="col-2">
@@ -77,11 +75,8 @@ $_SESSION['username'] = 'Admin';
                         <div class="col-2">
                          <input type="file" name="file" class="spacing-b-tiny XatiInput XatiInputGallery">
                          </div>
+                        <button type="submit" name="submit" class="btn spacing-t-small">UPLOAD</button>
                     </form>
-                    <button type="submit" name="submit" class="btn spacing-t-small">UPLOAD</button>
-                </div>';
-                }
-                ?>
             </div>
         </div>
     </div>

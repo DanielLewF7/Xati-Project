@@ -1,5 +1,4 @@
 <?php
-require "../Register/dbh.inc.php";
 if (isset($_POST['submit'])) {
     $newFileName = $_POST['filename'];
     if (empty($newFileName)) {
@@ -11,7 +10,6 @@ if (isset($_POST['submit'])) {
     $imageDesc = $_POST['filedesc'];
 
     $file = $_FILES['file'];
-    print_r($file);
 
     $fileName = $file["name"];
     $fileType = $file["type"];
@@ -28,8 +26,10 @@ if (isset($_POST['submit'])) {
         if ($fileError === 0) {
             if ($fileSize < 200000) {
                 $imageFullName = $newFileName . "." . uniqid("", true) . "." . $fileActualExt;
-                $fileDestination = "../images/GalleryImg" . $imageFullName;
-                if (empty($ImageTitle) || empty($ImageDesc)) {
+                $fileDestination = "../Images/GalleryImg/" . $imageFullName;
+                include_once "dbh.php";
+                var_dump($imageTitle);
+                if (empty($imageTitle) || empty($imageDesc)) {
                     header("Location: gallery.php?upload=empty");
                     exit();
                 } else {
@@ -39,11 +39,12 @@ if (isset($_POST['submit'])) {
                         echo 'SQL statement failed!';
                     } else {
                         mysqli_stmt_execute($stmt);
+
                         $result = mysqli_stmt_get_result($stmt);
                         $rowCount = mysqli_num_rows($result);
-                        $setImageOrder = $rowCount ++;
+                        $setImageOrder = $rowCount + 1;
 
-                        $sql = "INSERT INTO gallery (idGallery,titleGallery,descGallery,imgFullNameGallery,orderGallery) VALUES (?, ?, ?, ?);";
+                        $sql = "INSERT INTO gallery (titleGallery,descGallery,imgFullNameGallery,orderGallery) VALUES (?, ?, ?, ?);";
                         if (!mysqli_stmt_prepare($stmt, $sql)) {
                             echo 'SQL statement failed!';
                         } else {
@@ -69,5 +70,4 @@ if (isset($_POST['submit'])) {
         echo 'Invalid file type!';
         exit();
     }
-
 }

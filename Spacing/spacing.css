@@ -22,9 +22,18 @@
 .spacing-b-large {
     margin-top: 150px;
 }
-.spacing-mid {
-    margin: auto;
-}
 .text-spacing {
     padding: 10px 10px;
+}
+.spacing-t-medium-padding {
+    padding-top: 50px;
+}
+.spacing-b-medium-padding {
+    padding-bottom: 50px;
+}
+.spacing-t-large-padding {
+    padding-top: 75px;
+}
+.spacing-b-large-padding {
+    padding-top: 75px;
 }

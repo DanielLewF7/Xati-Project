@@ -29,7 +29,7 @@ if (isset($_POST["login-sub"])) {
                     $_SESSION['userId'] = $row['id'];
                     $_SESSION['userUid'] = $row['username'];
 
-                    header("Location: ../Login/login.php?login=success");
+                    header("Location: ../index.php?login=success");
                     exit();
                 } else {
                     header("Location: login.php?error=wrongPassword");

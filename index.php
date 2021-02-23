@@ -33,6 +33,7 @@
             echo '<ul class="menu">
             <li><a href="Index.html">Home</a></li>
             <li><a href="Gallery/gallery.php">Gallery</a></li>
+            <li><a href="Mapbox/map.php">Map</a></li>
             </ul>';
             } else {
             echo '  <ul class="menu">
@@ -47,9 +48,13 @@
         <?php
         if (isset($_SESSION['userUid'])) {
             echo ' <form class="XatiForm" action="Login/logout.inc.php" method="post">
-                <button type="submit" name="logout-sub" class="btn logout">Logout</button>
+                <div class="col-1">
+                    <button type="submit" name="logout-sub" class="btn logout">Logout</button>
+                </div>
             </form>';
-            echo '<p class="loginText">You are logged in!</p>';
+            echo '<div class="col-11">
+                <p class="loginText">You are logged in!</p>
+                </div>';
         }
         ?>
 </div>
@@ -61,7 +66,6 @@
         <a href="index.html">Home</a>
         <a href="Register/register.php">Register</a>
         <a href="Login/login.php">Login</a>
-        <a href="Gallery/gallery.php">Login</a>
         <button class="btn-small text-center">Close Me</button>
     </div>
 </div>
@@ -130,6 +134,8 @@
                 <div class="teaserImgBox firstimg">
                 </div>
                 <div class="textbox text-center">
+                    <h1>Content Management System</h1>
+                    <span class="pulse"></span>
                     <p class="font-padding">
                         Wordpress is a simple and good CMS and I really prefer working with it.
                         For small projects, which are requiring a CMS, Wordpress is the right choice, in my opinion.
@@ -144,6 +150,8 @@
                 <div class="teaserImgBox secondimg">
                 </div>
                 <div class="textbox text-center">
+                    <h1>Which coding languages are used on this page</h1>
+                    <span class="pulse"></span>
                     <p class="font-padding">I'm basically using HTML & CSS as a script language, as well as
                         javacript for some frontend coding. I'm also using the Jquery Framework here to
                         skip some code writing, so that it remains the same. In addition, I´m also using
@@ -157,6 +165,8 @@
                 <div class="teaserImgBox thirdimg">
                 </div>
                 <div class="textbox text-center">
+                    <h1>PHP and Databases (MySQL)</h1>
+                    <span class="pulse"></span>
                     <p class="font-padding">In the future I´m going to try to code with PHP and use a MYSQL databank
                         where the user login information is gonna be saved. I'm still in the learning progress there
                         and not the best coder in general, so be considerate, please.

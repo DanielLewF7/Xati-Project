@@ -22,6 +22,7 @@ $_SESSION['username'] = 'Admin';
 <div class="Navigation">
     <ul class="menu">
         <li><a href="../Index.php">Home</a></li>
+        <li><a href="../Mapbox/map.php">Map</a></li>
     </ul>
 </div>
 <div class="topnav">
@@ -53,6 +54,10 @@ $_SESSION['username'] = 'Admin';
                     <div class="newGalleryImg" style="background-image: url(../Images/GalleryImg/'.$row["imgFullNameGallery"].');"></div>
                     <h3>'.$row["titleGallery"].'</h3>
                     <p>'.$row["descGallery"].'</p>
+                    <form action="deleteImg.php" Method="post">
+                        <input type="hidden" value='.$row["idGallery"].'>
+                        <button name="delete" class="btn-big spacing-b-small">Delete this Image</button>
+                    </form>
                     </a>';
                 }
             }

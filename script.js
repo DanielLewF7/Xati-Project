@@ -37,6 +37,12 @@ $(document).ready(function() {
         animText.slideUp(700);
         event.stopPropagation();
     });
+    var pulse = $(".pulse");
+    pulse.ready(function () {
+        pulse.animate({
+            left: '+=125px',
+        }, 3500);
+    });
 });
 //document.write(('b' + 'a' + + 'a' + 'a').toLowerCase());
 console.log("a" + + "a");

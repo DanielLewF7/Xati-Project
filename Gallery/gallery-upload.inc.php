@@ -28,7 +28,6 @@ if (isset($_POST['submit'])) {
                 $imageFullName = $newFileName . "." . uniqid("", true) . "." . $fileActualExt;
                 $fileDestination = "../Images/GalleryImg/" . $imageFullName;
                 include_once "dbh.php";
-                var_dump($imageTitle);
                 if (empty($imageTitle) || empty($imageDesc)) {
                     header("Location: gallery.php?upload=empty");
                     exit();
@@ -71,3 +70,11 @@ if (isset($_POST['submit'])) {
         exit();
     }
 }
+//if (isset($_POST["delete"])) {
+    //$id = $_GET['idGallery'];
+    //$sql = "DELETE FROM gallery WHERE idGallery = $id";
+   // mysqli_query($sql, $conn);
+
+   // header("Location: gallery.php?Image=deleted");
+    //exit();
+//}

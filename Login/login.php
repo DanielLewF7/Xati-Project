@@ -60,7 +60,7 @@
             ?>
             <div class="login spacing-b-small">
                 <div class="row">
-                    <form action="login.inc.php" method="post" class="signupForm">
+                    <form action="login.inc.php" method="post" class="signupForm spacing-b-small">
                         <div class="col-4">
                             <p>Please type your login username or login email</p>
                             <input name="mailuid" type="text" placeholder="Username" class="XatiInput">
@@ -73,6 +73,7 @@
                             <button name="login-sub" class="logbtn spacing-t-small">Login</button>
                         </div>
                     </form>
+                    <a href="../Register/register.php">You don't have a Account ? Click Me!</a>
                 </div>
             </div>
         </div>

@@ -20,11 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0961587-c8aa-4d6a-8957-ba401ec9133e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Gallery/dbh.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gallery/deleteImg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mapbox/map.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mapbox/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mapbox/map.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angle-double-down-solid.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gallery/gallery-upload.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/Gallery/gallery-upload.inc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gallery/gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/Gallery/gallery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login/login.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/Login/login.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Login/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Register/register.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/Register/register.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacing/spacing.css" beforeDir="false" afterPath="$PROJECT_DIR$/Spacing/spacing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Typographie/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/Typographie/fonts.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,9 +48,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -59,15 +69,16 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/GitHubXati" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/GitHubXati" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Images" />
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/GitHubXati" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -89,7 +100,15 @@
       <workItem from="1611570318226" duration="587000" />
       <workItem from="1611588168801" duration="7882000" />
       <workItem from="1611826352692" duration="1736000" />
-      <workItem from="1612258391277" duration="12400000" />
+      <workItem from="1612258391277" duration="29582000" />
+      <workItem from="1612874985664" duration="947000" />
+      <workItem from="1612950544930" duration="596000" />
+      <workItem from="1612953703573" duration="929000" />
+      <workItem from="1613039621879" duration="618000" />
+      <workItem from="1613042560591" duration="618000" />
+      <workItem from="1613476709834" duration="590000" />
+      <workItem from="1613559592826" duration="640000" />
+      <workItem from="1613642427558" duration="14339000" />
     </task>
     <servers />
   </component>
@@ -117,14 +136,23 @@
       <screen x="0" y="25" width="1680" height="972" />
     </state>
     <state x="966" y="308" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1680.972@0.25.1680.972" timestamp="1610100651727" />
-    <state x="784" y="730" key="NewPhpFileDialog" timestamp="1612276183694">
-      <screen x="0" y="25" width="1680" height="975" />
+    <state x="587" y="360" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1613731379497">
+      <screen x="0" y="25" width="1680" height="958" />
     </state>
+    <state x="587" y="360" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.25.1680.958@0.25.1680.958" timestamp="1613731379497" />
+    <state x="784" y="716" key="NewPhpFileDialog" timestamp="1612531518183">
+      <screen x="0" y="25" width="1680" height="956" />
+    </state>
+    <state x="784" y="716" key="NewPhpFileDialog/0.25.1680.956@0.25.1680.956" timestamp="1612531518183" />
     <state x="784" y="725" key="NewPhpFileDialog/0.25.1680.967@0.25.1680.967" timestamp="1610119767771" />
     <state x="784" y="727" key="NewPhpFileDialog/0.25.1680.971@0.25.1680.971" timestamp="1611751180636" />
     <state x="784" y="728" key="NewPhpFileDialog/0.25.1680.972@0.25.1680.972" timestamp="1610715765340" />
     <state x="784" y="729" key="NewPhpFileDialog/0.25.1680.973@0.25.1680.973" timestamp="1610708840869" />
     <state x="784" y="730" key="NewPhpFileDialog/0.25.1680.975@0.25.1680.975" timestamp="1612276183694" />
+    <state x="541" y="258" width="597" height="490" key="find.popup" timestamp="1614077876467">
+      <screen x="0" y="25" width="1680" height="960" />
+    </state>
+    <state x="541" y="258" width="597" height="490" key="find.popup/0.25.1680.960@0.25.1680.960" timestamp="1614077876467" />
     <state x="616" y="302" width="670" height="684" key="search.everywhere.popup" timestamp="1610021495886">
       <screen x="0" y="25" width="1680" height="974" />
     </state>

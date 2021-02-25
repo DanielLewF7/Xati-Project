@@ -69,6 +69,7 @@
             just to show you my home city.</p>
     </div>
 </div>
+<div id="instructions"></div>
 <div class="footer">
     <div class="imgbox">
         <h3>Website by Daniel Lewandowski</h3>

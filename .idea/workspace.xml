@@ -22,8 +22,6 @@
     <list default="true" id="c0961587-c8aa-4d6a-8957-ba401ec9133e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mapbox/map.css" beforeDir="false" afterPath="$PROJECT_DIR$/Mapbox/map.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mapbox/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/Mapbox/map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mapbox/map.php" beforeDir="false" afterPath="$PROJECT_DIR$/Mapbox/map.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +96,7 @@
       <workItem from="1613559592826" duration="640000" />
       <workItem from="1613642427558" duration="15778000" />
       <workItem from="1614159539280" duration="1961000" />
-      <workItem from="1614247198198" duration="4634000" />
+      <workItem from="1614247198198" duration="5102000" />
     </task>
     <servers />
   </component>

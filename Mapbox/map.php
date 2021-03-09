@@ -53,20 +53,23 @@
         <i class="fas fa-align-justify off"></i>
     </a>
     <div id="topLinks">
-        <a href="index.html">Home</a>
-        <a href="Register/register.php">Register</a>
-        <a href="Login/login.php">Login</a>
+        <a href="index.php">Home</a>
+        <a href="../Gallery/gallery.php">Gallery</a>
         <button class="btn-small text-center">Close Me</button>
     </div>
 </div>
 
 <div id='map'></div>
 <div class="container">
-    <div class="content spacing-t-small">
+    <div class="content spacing-t-small spacing-b-small">
         <h1 class="text-center">Welcome to my Map</h1>
         <span class="MapPulse"></span>
-        <p class="text-center">this map is still work in Progress, so please be patient here. For a little example, i set a marker in Hamburg
-            just to show you my home city.</p>
+        <ul id="buttons">
+            <li id="button-en" class="button">English</li>
+            <li id="button-ru" class="button">Russian</li>
+            <li id="button-de" class="button">Deutsch</li>
+            <li id="button-es" class="button">Espanol</li>
+        </ul>
     </div>
 </div>
 <div id="instructions"></div>
@@ -81,9 +84,6 @@
     </div>
     <button class="btop"><i class="fas fa-arrow-up"></i></button>
 </div>
-<script>
-
-</script>
 <script src="map.js"></script>
 </body>
 </html>

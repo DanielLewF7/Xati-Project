@@ -3,15 +3,31 @@ var map = new mapboxgl.Map({
     container: 'map',
     center: ([9.993682, 53.551086]),
     zoom: 5,
-    style: 'mapbox://styles/daniellew/cklcesja92byg17mopotfnduc'
-});
+    style: 'mapbox://styles/daniellew/cklcesja92byg17mopotfnduc',
 
+});
+document
+    .getElementById('buttons')
+    .addEventListener('click', function (event) {
+        var language = event.target.id.substr('button-'.length);
+
+        map.setLayoutProperty('country-label', 'text-field', [
+            'get',
+            'name_' + language
+        ]);
+    });
 var pulse = $(".MapPulse");
-pulse.ready(function () {
+pulse.ready(function redMapPulse () {
     pulse.animate({
-        left: '+=500px',
+        left: '385px',
+    }, 1500);
+    setTimeout(function() {
+        pulse.addClass("pulseFixedPos");
+        redMapPulse();
     }, 1500);
 });
+
+
 var geojson = {
     type: 'FeatureCollection',
     features: [{
@@ -85,7 +101,7 @@ function getRoute(end) {
                         properties: {},
                         geometry: {
                             type: 'LineString',
-                            coordinates: geojson
+                            coordinates: geojson,
                         }
                     }
                 },
@@ -135,7 +151,7 @@ map.on('load', function() {
             }
         },
         paint: {
-            'circle-radius': 12,
+            'circle-radius': 7,
             'circle-color': '#fff'
         }
     });
@@ -177,7 +193,7 @@ map.on('load', function() {
                     }
                 },
                 paint: {
-                    'circle-radius': 10,
+                    'circle-radius': 7,
                     'circle-color': '#f30'
                 }
             });

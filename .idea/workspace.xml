@@ -22,6 +22,12 @@
     <list default="true" id="c0961587-c8aa-4d6a-8957-ba401ec9133e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mapbox/map.css" beforeDir="false" afterPath="$PROJECT_DIR$/Mapbox/map.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mapbox/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/Mapbox/map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mapbox/map.php" beforeDir="false" afterPath="$PROJECT_DIR$/Mapbox/map.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Typographie/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/Typographie/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +102,10 @@
       <workItem from="1613559592826" duration="640000" />
       <workItem from="1613642427558" duration="15778000" />
       <workItem from="1614159539280" duration="1961000" />
-      <workItem from="1614247198198" duration="5102000" />
+      <workItem from="1614247198198" duration="22499000" />
+      <workItem from="1614680699662" duration="589000" />
+      <workItem from="1615194977417" duration="1083000" />
+      <workItem from="1615202494731" duration="511000" />
     </task>
     <servers />
   </component>
@@ -141,6 +150,10 @@
       <screen x="0" y="25" width="1680" height="960" />
     </state>
     <state x="541" y="258" width="597" height="490" key="find.popup/0.25.1680.960@0.25.1680.960" timestamp="1614077876467" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1614341232123">
+      <screen x="0" y="25" width="1680" height="964" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/0.25.1680.964@0.25.1680.964" timestamp="1614341232123" />
     <state x="616" y="302" width="670" height="684" key="search.everywhere.popup" timestamp="1610021495886">
       <screen x="0" y="25" width="1680" height="974" />
     </state>

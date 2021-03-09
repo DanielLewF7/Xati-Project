@@ -38,12 +38,16 @@ $(document).ready(function() {
         event.stopPropagation();
     });
     var pulse = $(".pulse");
-    pulse.ready(function () {
+    pulse.ready(function redPulse () {
         pulse.animate({
-            left: '+=125px',
+            left: '125px',
+        }, 3500);
+        setTimeout(function() {
+            pulse.addClass("pulseFixedPos");
+            redPulse();
         }, 3500);
     });
 });
 //document.write(('b' + 'a' + + 'a' + 'a').toLowerCase());
-console.log("a" + + "a");
-console.log("d" + + "d");
+//console.log("a" + + "a");
+//console.log("d" + + "d");
